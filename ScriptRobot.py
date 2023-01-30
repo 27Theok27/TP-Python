@@ -1,4 +1,12 @@
 class Robot:
+    name = ""
+    color = ""
+    weight = 0
+    x = 0
+    y = 0
+    direction = ""
+    message = ""
+
     def __init__(self, name, color, weight, x, y, direction, message):
         self.name = name
         self.color = color
@@ -23,3 +31,5 @@ class Robot:
 
     def communiquer(self, message):
         print(self.name + " dit : " + message)
+
+    
